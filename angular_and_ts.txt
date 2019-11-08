@@ -1,0 +1,25 @@
+-Angular Module
+  -It encapsulate the
+    - component - UI for the application
+    - directives
+	- Used to add/ remove behaviour of a DOM element.
+	- Used to change the appearance
+
+   - Pipes
+	- Used to formate the data while printing in template file.
+
+  -Service
+	- These are injectable object (Angular DI system creates and manage)
+	- Reusable function codes.
+ - A module is a typescript class decorated with @NgModule
+
+- Run the application 
+   - ng serve -o
+   - ng s -o
+
+-Creating Components
+	- ng generate component <components/name of component>
+ 	- ng g c home
+
+
+ -Directive
