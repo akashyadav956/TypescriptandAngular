@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./styles.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="index.aspx" method="POST" novalidate>
+        <div>
+            <label for="firstname"> First Name</label>
+            <input type="text" name="firstname" id="firstname" placeholder="First name" required maxlength="35">
+        </div>
+        <div>
+            <label for="lastname"> Last Name</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Last name" required maxlength="35">
+        </div>
+
+        <div>
+            <label for="age"> Age</label>
+            <input type="number" name="age" id="age" placeholder="Age" required min="18" max="65">
+        </div>
+
+        <div>
+            <label for="email"> Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+        </div>
+
+        <div>
+            <label for="LinkedInUrl"> LinkedIn Profile Url</label>
+            <input type="url" name="LinkedInUrl" id="LinkedInUrl" placeholder="LinkedIn Url" required>
+        </div>
+
+        <div>
+            <label for="salary">Expected Salary</label>
+            10000<input type="range" name="salary" min="10000" max="50000" placeholder="Salary" required>50000
+        </div>
+        <div>
+                <label for="username"> User Name</label>
+                <input type="text" name="username" id="username" placeholder="User name" required maxlength="35">
+            </div>
+        <div>
+            <label for="password"> Password</label>
+            <input type="password" name="password" placeholder="Password" required>
+        </div>
+
+        <div>
+            <label for="dob"> Date of Birth</label>
+            <input type="date" name="dob" required>
+        </div>
+
+        <div>
+            <label for="color"> Favorite color</label>
+            <input type="color" name="color">
+        </div>
+
+        <div>
+                <label for="search"> Search area</label>
+                <input type="search" name="search">
+            </div>
+
+        <div>
+                <label for="time"> Preferred time to call</label>
+             From    <input type="time" name="fromTime">
+             To    <input type="time" name="toTime">
+            </div>
+
+        <div>
+            <button type="submit" name="save"> Save & Finish</button>
+            <button type="submit" name="saveasdraft" formaction="draft.aspx"> Save as Finish</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>

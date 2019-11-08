@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Mi 7",
+        "price": 19999,
+        "quantity": 10,
+        "category":"Mobile",
+        "imageUrl":"./assets/xiaomi-mi7.png",
+        "description":"Smartphone from Xiomi "
+    },
+    {
+        "id": 2,
+        "name": "Galexy 7",
+        "price": 250000,
+        "quantity": 50,
+        "category":"Mobile",
+        "imageUrl":"./assets/samsung-galaxy-a7.jpg",
+        "description":"Smartphone from Samsung Galexy"
+    },
+    {
+        "id": 3,
+        "name": "HP Laptop",
+        "price": 400000,
+        "quantity": 10,
+        "category":"Laptop",
+        "imageUrl":"./assets/hp.jpg",
+        "description":"HP Lap top.... "
+    }
+    
+]

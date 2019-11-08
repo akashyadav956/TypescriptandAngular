@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./libs/jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // let products = [
+            //     {id:1, name: "Apple", price: 20, quantity: 40},
+            //     {id:2, name: "Orange", price: 50, quantity: 110},
+            //     {id:3, name: "Grapes", price: 40, quantity: 450},
+            //     {id:4, name: "Mango", price: 30, quantity: 50}
+            // ]
+            // $.getJSON("./data/products.json", (products) => {
+            //     $.each(products, function (index, item) {
+            //         let row = `<tr>
+            //    <td>${item.id}</td>
+            //    <td>${item.name}</td>
+            //    <td>${item.price}</td>
+            //    <td>${item.quantity}</td>
+            //    </tr>`;
+            //         $("table").append(row);
+            //     });
+            // });
+
+            $.ajax({
+                url: "./data/products.json",
+                method: "get",
+                contentType: "application/json",
+                dataType: "json",
+                success: (products) => {
+                    $.each(products, function (index, item) {
+                        let row = `<tr>
+               <td>${item.id}</td>
+               <td>${item.name}</td>
+               <td>${item.price}</td>
+               <td>${item.quantity}</td>
+               </tr>`;
+                        $("table").append(row);
+                    });
+                }
+            });
+
+            //    $.each(products,function(index, item){
+            //        let row = `<tr>
+            //        <td>${item.id}</td>
+            //        <td>${item.name}</td>
+            //        <td>${item.price}</td>
+            //        <td>${item.quantity}</td>
+            //        </tr>`;
+            //        $("table").append(row);
+            //    });
+
+            $("button").click(function () {
+                $("p").html("This is updated content using JQuery");
+                $("#fname").val("Akash");
+                let fname = $("#fname").val();
+                console.log(fname);
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <p>Sample Text</p>
+    <input type="text" id="fname" />
+    <button id="btn"> Click me</button>
+    <table border="1">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Qty</th>
+        </tr>
+    </table>
+</body>
+
+</html>

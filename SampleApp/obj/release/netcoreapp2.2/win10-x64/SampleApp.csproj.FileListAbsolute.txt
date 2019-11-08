@@ -1,0 +1,14 @@
+D:\FSD_Tranning\SampleApp\bin\release\netcoreapp2.2\win10-x64\hostpolicy.dll
+D:\FSD_Tranning\SampleApp\bin\release\netcoreapp2.2\win10-x64\hostfxr.dll
+D:\FSD_Tranning\SampleApp\bin\release\netcoreapp2.2\win10-x64\SampleApp.exe
+D:\FSD_Tranning\SampleApp\bin\release\netcoreapp2.2\win10-x64\SampleApp.deps.json
+D:\FSD_Tranning\SampleApp\bin\release\netcoreapp2.2\win10-x64\SampleApp.runtimeconfig.json
+D:\FSD_Tranning\SampleApp\bin\release\netcoreapp2.2\win10-x64\SampleApp.runtimeconfig.dev.json
+D:\FSD_Tranning\SampleApp\bin\release\netcoreapp2.2\win10-x64\SampleApp.dll
+D:\FSD_Tranning\SampleApp\bin\release\netcoreapp2.2\win10-x64\SampleApp.pdb
+D:\FSD_Tranning\SampleApp\obj\release\netcoreapp2.2\win10-x64\SampleApp.csprojAssemblyReference.cache
+D:\FSD_Tranning\SampleApp\obj\release\netcoreapp2.2\win10-x64\SampleApp.csproj.CoreCompileInputs.cache
+D:\FSD_Tranning\SampleApp\obj\release\netcoreapp2.2\win10-x64\SampleApp.AssemblyInfoInputs.cache
+D:\FSD_Tranning\SampleApp\obj\release\netcoreapp2.2\win10-x64\SampleApp.AssemblyInfo.cs
+D:\FSD_Tranning\SampleApp\obj\release\netcoreapp2.2\win10-x64\SampleApp.dll
+D:\FSD_Tranning\SampleApp\obj\release\netcoreapp2.2\win10-x64\SampleApp.pdb

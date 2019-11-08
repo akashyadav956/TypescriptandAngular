@@ -1,0 +1,42 @@
+form div{
+    padding: 5px;
+}
+label{
+    display: block;
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="search"],
+input[type="range"]
+{
+    border-radius: 4px;
+    border: 1px solid gray;
+    min-height: 25px;
+    padding: 3px;
+    padding-left: 5px;
+    min-width: 250px;
+    color:darkslategray;
+}
+
+input[type="time"]
+{
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    min-height: 25px;
+    padding: 3px;
+    padding-left: 5px;
+    min-width: 100px;
+    color:darkslategray;
+}
+
+button{
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    min-height: 25px;
+    padding: 8px;
+    background-color: royalblue;
+}

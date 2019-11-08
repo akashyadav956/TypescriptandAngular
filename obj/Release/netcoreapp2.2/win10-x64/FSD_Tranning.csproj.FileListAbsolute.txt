@@ -1,0 +1,4 @@
+D:\FSD_Tranning\obj\Release\netcoreapp2.2\win10-x64\FSD_Tranning.csprojAssemblyReference.cache
+D:\FSD_Tranning\obj\Release\netcoreapp2.2\win10-x64\FSD_Tranning.csproj.CoreCompileInputs.cache
+D:\FSD_Tranning\obj\Release\netcoreapp2.2\win10-x64\FSD_Tranning.AssemblyInfoInputs.cache
+D:\FSD_Tranning\obj\Release\netcoreapp2.2\win10-x64\FSD_Tranning.AssemblyInfo.cs
